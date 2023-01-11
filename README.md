@@ -24,6 +24,6 @@ CSGO client loads and saves your configuration by reading and writing `config.cf
 
 ## Reference
 
-[How to: Scripting, Binds and Configs](https://steamcommunity.com/sharedfiles/filedetails/?id=314801693)
+- [How to: Scripting, Binds and Configs](https://steamcommunity.com/sharedfiles/filedetails/?id=314801693)
 
-[TOTAL CS:GO](https://totalcsgo.com/commands)
+- [TOTAL CS:GO](https://totalcsgo.com/commands)
