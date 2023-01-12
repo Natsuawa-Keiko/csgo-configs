@@ -42,7 +42,7 @@ C:/Program Files (x86)/Steam/userdata/<your_steamID32>/730/local/cfg/
 
 No.
 
-Config files save you in-game settings like keybindings, crosshair style, jumpthrow, etc. There is no difference between writing commands in your config files and executing them directly in the CS:GO console. Commands like `sv_cheats 1` are server-side command and if your are not the host, your can run them whatever you want: they just **WILL NOT WORK**, and you will not considered as hacker but a dumb player.
+Config files save you in-game settings like keybindings, crosshair style, jumpthrow, etc. There is no difference between writing commands in your config files and executing them directly in the CS:GO console. Commands like `sv_cheats 1` are server-side commands and if your are not the host, your can input and execute them whatever you want: they will just **NOT WORK**, and you will not considered as a hacker but a dumb player.
 
 ### Can I just write them in the default `config.cfg`?
 
