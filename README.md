@@ -6,7 +6,7 @@ Initial commit is directly copied from my another GitHub account due to privacy 
 
 ## Before We Start
 
-### What are path components?
+### What are the path components?
 
 Assume we have a file named `/foo/bar/example.txt`, then
 
@@ -16,7 +16,7 @@ Assume we have a file named `/foo/bar/example.txt`, then
 - suffix: `.txt`
 - extension: `txt`
 
-Note that this is a Posix-style path. Windows uses backslash `\` as its path separator but slash `/` is also compatible. Therefore we only talk about Posix-style path.
+Note that the path aforementioned is in Posix-style. Windows uses backslash `\` as its path separator but slash `/` is also compatible. From now on we only talk about paths in Posix-style.
 
 ### Make your file suffixes visible!
 
@@ -24,9 +24,9 @@ If not, when you create a file named `autoexec.cfg`, it may actually be like `au
 
 Click [here](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01) for more information.
 
-### How does a suffix affect the file?
+### How will a file be affected by its suffix?
 
-A common misunderstanding is that we can change file type by changing its suffix. Actually, suffix is only for the operating system to infer which software/program should it call to open the file, and has nothing to do with the data of the file.
+A common misunderstanding is that we can change the type of a file by changing suffix, which is not true. Actually, suffixes are only for the operating system to infer which software/program should be called to open files, and has nothing to do with the data of the file.
 
 CS:GO client chooses `.cfg` as its config files' suffix, and a `.cfg` file is literally **OF NO DIFFERENCE** from a `.txt` file. So don't be scared!
 
