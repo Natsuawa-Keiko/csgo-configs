@@ -4,11 +4,39 @@ My *Counter-Strike: Global Offensive* settings.
 
 Initial commit is directly copied from my another GitHub account due to privacy concern. If you accidentally find that account, please do not tell anyone else. Much appreciated.
 
-## Q & A
+## Before We Start
+
+### What are path components?
+
+Assume we have a file named `/foo/bar/example.txt`, then
+
+- parent: `/foo/bar/`
+- filename: `example.txt`
+- stem: `example`
+- suffix: `.txt`
+- extension: `txt`
+
+Note that this is a Posix-style path. Windows uses backslash `\` as its path seperator but slash `/` is also compatible. Therefore we only talk about Posix-style path.
+
+### Make your file suffixes visible!
+
+If not, when you create a file nemed `autoexec.cfg`, it may actually be like `autoexec.cfg.txt`, with its suffix `.txt` hidden.
+
+Click [here](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01) for more information.
+
+### How does a suffix affect the file?
+
+A common misunderstanding is that we can change file type by changing its suffix. Actually, suffix is only for the operating system to infer which software/program should it call to open the file, and has nothing to do with the data of the file.
+
+CSGO client chooses `.cfg` as its config files' suffix, and a `.cfg` file is literally **OF NO DIFFERENCE** from a `.txt` file. So don't be scared!
 
 ### Where can I find my config directory?
 
-By default, your config directory is located at `C:/Program Files (x86)/Steam/userdata/<your_steamID32>/730/local/cfg/`.
+By default, your config directory is located at
+
+```
+C:/Program Files (x86)/Steam/userdata/<your_steamID32>/730/local/cfg/
+```
 
 ### Is it considered as game hacking?
 
@@ -21,6 +49,8 @@ Config files save you in-game settings like keybindings, crosshair style, jumpth
 Yes, but not recommended.
 
 CSGO client loads and saves your configuration by reading and writing `config.cfg`. After batch I/O operation, your `config.cfg` will be no longer read-friendly and hard to manage.
+
+A better implementation is that writting down you settings in a file named `autoexec.cfg`. This file is expected to execute automatically, if not, add `+autoexec` to your CSGO launch option.
 
 ## Reference
 
