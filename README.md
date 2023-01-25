@@ -32,10 +32,24 @@ CS:GO client chooses `.cfg` as its config files' suffix, and a `.cfg` file is li
 
 ### Where can I find my config directory?
 
-By default, your config directory is located at
+For Windows:
 
 ```
 C:/Program Files (x86)/Steam/userdata/<your_steamID32>/730/local/cfg/
+```
+
+For Linux:
+
+```
+~/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/
+```
+
+I have not tested the config path yet and it seems to affect the global settings, which means that the configs in the above directory will overwrite other accounts' default settings.
+
+Path below may be the solution but is not guaranteed, because I deleted my Linux virtual machine long time ago.
+
+```
+~/.steam/steam/userdata/<your_steamID32>/730/local/cfg/
 ```
 
 ### Is it considered as game hacking?
