@@ -4,6 +4,13 @@ My *Counter-Strike: Global Offensive* settings.
 
 Initial commit is directly copied from my another GitHub account due to privacy concern. If you accidentally find that account, please do not tell anyone else. Much appreciated.
 
+In order not to pollute the namespace:
+
+- Every modules under `configs/crosshairs/` will be named with prefix `crosshair_`;
+- Every modules under `configs/environments/` will be named with prefix `crosshair_`.
+
+CS:GO does not support loading configs in subdirectories. Please **FLATTEN** all files in `configs/`!
+
 ## Before We Start
 
 ### What are the path components?
